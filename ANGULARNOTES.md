@@ -29,3 +29,7 @@ Within the ./heroes/heroes.components.ts file there is the ngOnInit() lifecycle 
 
 You can export and the import the module similar to this 
 export class AppModule { }
+
+The word *uppercase* in the *interpolation binding*, right after the pipe operator ( | ), activates the built-in UppercasePipe.
+
+*Pipes* are a good way to format strings, currency amounts, dates and other display data. Angular ships with several built-in pipes and you can create your own.
